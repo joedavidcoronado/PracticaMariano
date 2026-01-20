@@ -1,0 +1,19 @@
+Tareita bien bonita
+
+1. Terminar los aparatos electronicos que hay por acabar en practica #5 (televisor y microondas)
+
+2. Aprender de memoria los conceptos basicos de POO (Object Orientation Programation):
+    - Encapsulamiento
+    - Abstraccion
+    - Herencia
+    - Polimorfismo
+
+3. Realizar un programa de albergue de mascotas donde: la capacidad maxima es de 50 raciones de comida
+al dia, cada animal consume una cantidad de raciones específicas (por ejemplo: el perro come 4 raciones,
+los gatos comen 3 raciones, el elefante come 12 raciones, etc).
+Realizar un ejemplo con 5 tipos de animales o mas, donde valide que no me deje entrar mas animales de los
+que puedo tener en mi refugio.
+Todos los animales pueden dejar comida (interface) pero no necesariamente la misma cantida, se puede utilizar
+el metodo Random de Java para que sea aleatorio
+Todos los animales hacen ruidos diferentes
+Todos los animales se pueden escapar de forma diferente del albergue
