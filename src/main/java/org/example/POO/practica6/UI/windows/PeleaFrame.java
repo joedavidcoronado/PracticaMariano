@@ -103,12 +103,26 @@ public class PeleaFrame extends JFrame {
             btnPelear.setEnabled(false);
             lblWinner.setText("Ganó " + mounstro.getNombre());
             lblVidaHumano.setText("0");
+
+            //cambiar imagen
+            ImageIcon icono = new ImageIcon(getClass().getResource("/images/humanoMuerto.png"));
+            Image imagen = icono.getImage();
+            Image imagenRedimensionada = imagen.getScaledInstance(100, 80, Image.SCALE_SMOOTH);
+            ImageIcon iconoRedimensionado = new ImageIcon(imagenRedimensionada);
+            etiquetaImagenHumano.setIcon(iconoRedimensionado);
             return;
         }
         if(mounstro.getVida() <= 0){
             btnPelear.setEnabled(false);
             lblWinner.setText("Ganó " + humano.getNombre());
             lblVidaMounstro.setText("0");
+
+            //cambiar imagen
+            ImageIcon icono = new ImageIcon(getClass().getResource("/images/mounstroMuerto.png"));
+            Image imagen = icono.getImage();
+            Image imagenRedimensionada = imagen.getScaledInstance(100, 80, Image.SCALE_SMOOTH);
+            ImageIcon iconoRedimensionado = new ImageIcon(imagenRedimensionada);
+            etiquetaImagenMounstro.setIcon(iconoRedimensionado);
             return;
         }else{
             lblVidaHumano.setText(String.valueOf(humano.getVida()));
