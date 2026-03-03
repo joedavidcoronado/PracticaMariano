@@ -43,7 +43,5 @@ public class Main {
                 6
         );
         generador.conectar(microondas2);
-
-
     }
 }
