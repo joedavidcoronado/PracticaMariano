@@ -1,0 +1,6 @@
+VECTORES:
+Un vector es un numero cualquiera con una dirección.
+
+ESCALAR:
+Es un número cualquiera.
+
